@@ -16,6 +16,15 @@ Full derivation of the PDE can be found [here](pde-derivation.md)
 
 - **Inverse problem**: Sigma recovered to within 2% of the true value (0.197 vs 0.2).
 
+`PINN vs analytical Solution:`
+![PINN vs analytical](analytical_comparison.png)
+
+`Sigma recovery:`
+![Sigma recovery](sigma_recovery.png)
+
+`Loss components during training:`
+![Loss components](loss_curves.png)
+
 ## Method
 
 **Forward problem**
