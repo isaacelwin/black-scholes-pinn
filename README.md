@@ -1,6 +1,6 @@
 # Black-Scholes PINN
 
-A Physics-Informed Neural Network built to solve the Black-Scholes partial differential equation. The PINN has also been extended to an inverse problem that recovers the volatility from synthetic market data.
+A Physics-Informed Neural Network built to solve the Black-Scholes partial differential equation. The PINN has also been extended to an inverse problem that recovers the volatility from synthetic market data. The code can be found [here](black_scholes_pinn.py).
 
 ## Background
 
@@ -8,7 +8,7 @@ The Black-Scholes equation is a second order PDE, and is structurally the same t
 
 The project extends to an inverse problem: recovering the volatility given some synthetic option prices.
 
-Full derivation of the PDE can be found [here](pde-derivation.md)
+The full derivation of the PDE can be found [here](pde-derivation.md).
 
 ## Results
 
