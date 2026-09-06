@@ -12,7 +12,7 @@ Full derivation of the PDE can be found [here](pde-derivation.md)
 
 ## Results
 
-- **Forward problem**: A domain-wide absolute error under 0.2 when compared against the analytical solution to the Black-Scholes PDE (option values are in the approximate range 0-60)
+- **Forward problem**: An absolute error of less than 0.2 across the entire S domain when compared against the analytical solution to the Black-Scholes PDE (option values are in the approximate range 0-60)
 
 - **Inverse problem**: Sigma recovered to within 2% of the true value (0.197 vs 0.2).
 
